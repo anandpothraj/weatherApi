@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    max-width: 70%;
+    margin: auto;
+    height: 50vh;
+    margin-top: 7%;
+    border: 2px solid black;
+    border-radius: 0px 40px 0px 40px;
+}
+ 
+.searchContainer{
+    max-width: 70%;
+    margin: auto;
+    height: 15vh;
+    text-align: center;
+    padding: 12px 0px ;
+}
+
+#inputBox{
+    height: 100%;
+    width: 45%;
+    border: 2px solid orange;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Odibee Sans';
+    border-top-left-radius:20px;
+    color: black;
+    margin-right: 0px;
+}
+
+#btn{
+    height: 100%;
+    width: 15%;
+    border-color: white;
+    border-bottom-right-radius: 20px;
+    margin-left: 0px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+    height: 32vh;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    font-size: 16px;
+}
+
+.card1 p{
+    margin: 0px 5px;
+}
+
+.bigCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.card2{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+.temp{
+    width: 42%;
+    align-items: center;
+    margin-top: 7px;
+    padding: 25px 10px;
+    font-size: 22px;
+}
+.otherInfo{
+    margin-top: 7px;
+    padding: 10px 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.card3{
+    font-size: 16px;
+    width: 35%;
+    padding: 15px 17px;
+}
+
+@media only screen and (max-width: 670px) {
+    .container{
+        max-width: 90%;
+        height: 80%;
+    }
+    #btn{
+        padding-right: 10px;
+        width: 35%;
+    }
+    .searchContainer{
+        width: 100%;
+    }
+    #inputBox{
+        width: 62%;
+    }
+    .card1 p{
+        margin: 0px 2px;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+      .container{
+        max-width: 90%;
+        height: 80vh;
+      }
+      .info{
+          max-width: 90%;
+          margin: auto;
+      }
+  }
+
+  @media only screen and (max-width: 425px) {
+      .bigCard{
+          max-width: 90%;
+          margin: auto;
+      }
+      .card1{
+          text-align: center;
+          padding: 0px 12px
+      }
+      .temp{
+          padding-left:5px;
+      }
+  }
+
+  @media only screen and (max-width: 362px) {
+      .container{
+          height: 80vh;
+      }
+      .bigCard{
+          flex-direction: column;
+          width: auto;
+      }
+      .card2{
+          flex-direction: column;
+          width: auto;
+      }
+      .card3{
+          width: auto;
+      }
+      .temp{
+          margin: auto;
+      }
+  }

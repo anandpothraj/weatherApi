@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherify - know all about weather</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchContainer">
+            <input type="text" placeholder="Enter the city :" id="inputBox" >
+            <button type="submit" value="submit" id="btn">Submit</button>
+        </div>
+        <div class="info">
+            <div class="card1">
+                <p id="city"></p>
+                <p id="country"></p>
+                <p id="latitude"></p>
+                <p id="longitude"></p>
+            </div>
+            <div class="bigCard">
+                <div class="card2">
+                    <div class="temp">
+                        <p id="temperature"></p>
+                    </div>
+                    <div class="otherInfo">
+                        <p id="minTemperature"></p>
+                        <p id="maxTemperature"></p>
+                        <p id="main"></p>
+                        <p id="description"></p>
+                    </div>
+                </div>
+                <div  class="card3">
+                    <p id="pressure"></p>
+                    <p id="humidity"></p>
+                    <p id="wind"></p>
+                    <p id="cloud"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script type="module" src="./js/main.js"></script>
+</body>
+</html>
