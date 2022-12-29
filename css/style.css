@@ -4,7 +4,6 @@
     margin: 0%;
     padding: 0%;
 }
-
 .container{
     max-width: 70%;
     margin: auto;
@@ -13,7 +12,6 @@
     border: 2px solid black;
     border-radius: 0px 40px 0px 40px;
 }
- 
 .searchContainer{
     max-width: 70%;
     margin: auto;
@@ -21,7 +19,6 @@
     text-align: center;
     padding: 12px 0px ;
 }
-
 #inputBox{
     height: 100%;
     width: 45%;
@@ -33,7 +30,6 @@
     color: black;
     margin-right: 0px;
 }
-
 #btn{
     height: 100%;
     width: 15%;
@@ -48,23 +44,19 @@
     margin: auto;
     height: 32vh;
 }
-
 .card1{
     display: flex;
     flex-direction: row;
     height: auto;
     font-size: 16px;
 }
-
 .card1 p{
     margin: 0px 5px;
 }
-
 .bigCard{
     display: flex;
     flex-direction: row;
 }
-
 .card2{
     width: 65%;
     display: flex;
@@ -89,7 +81,6 @@
     width: 35%;
     padding: 15px 17px;
 }
-
 @media only screen and (max-width: 670px) {
     .container{
         max-width: 90%;
@@ -109,7 +100,6 @@
         margin: 0px 2px;
     }
   }
-
   @media only screen and (max-width: 550px) {
       .container{
         max-width: 90%;
@@ -120,7 +110,6 @@
           margin: auto;
       }
   }
-
   @media only screen and (max-width: 425px) {
       .bigCard{
           max-width: 90%;
@@ -134,7 +123,6 @@
           padding-left:5px;
       }
   }
-
   @media only screen and (max-width: 362px) {
       .container{
           height: 80vh;
